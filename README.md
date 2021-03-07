@@ -4,3 +4,6 @@ Bungeecord-Plugin that can force players to join specific servers by default bas
 - UUID
 - Name
 - Permission
+
+#### Commands:  (Purpose - Command - Permission)
+Reload config - /forceServer - forceServer.cmd
