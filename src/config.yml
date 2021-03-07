@@ -1,0 +1,11 @@
+
+
+# Force default-join-server for players that match the following attributes
+#  More specific attributes are preferred (UUID > Name > Permission)
+forceServer:
+  byUUID:
+    '25282767-426d-446a-99ab-5554b354ac59': Server1
+  byName:
+    'ABCDE': Server1
+  byPermission:
+    'forceServer.server1': Server1
