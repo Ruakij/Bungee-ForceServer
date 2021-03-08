@@ -20,7 +20,7 @@ public class PostLogin implements Listener {
         // byUUID
         String forcedTargetServer = Main.forceServerByUUID.get(p.getUniqueId().toString());
         // byName
-        if(forcedTargetServer == null) Main.forceServerByName.get(p.getName());
+        if(forcedTargetServer == null) forcedTargetServer = Main.forceServerByName.get(p.getName());
         // byPermission
         if(forcedTargetServer == null) {
             for(String permission : Main.forceServerByPermission.keySet()) {
